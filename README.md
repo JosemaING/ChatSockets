@@ -25,13 +25,16 @@ Para iniciar el servidor y conectar clientes, se deben seguir las instrucciones 
 Utilice los siguientes comandos en la terminal dentro del directorio del proyecto:
 
 - **INICIAR SERVIDOR TCP**
-mvn exec:java -Dexec.mainClass="es.ubu.lsi.server.ChatServerImpl"
+  
+`mvn exec:java -Dexec.mainClass="es.ubu.lsi.server.ChatServerImpl"`
 
 - **CONECTAR CLIENTE TCP (Sin parametros de argumento iniciamos como anonimo)**
-mvn exec:java -Dexec.mainClass="es.ubu.lsi.client.ChatClientImpl"
+  
+`mvn exec:java -Dexec.mainClass="es.ubu.lsi.client.ChatClientImpl"`
 
 - **CONECTAR CLIENTE TCP (como administrador)**
-mvn exec:java -Dexec.mainClass="es.ubu.lsi.client.ChatClientImpl" -Dexec.args="localhost admin"
+  
+`mvn exec:java -Dexec.mainClass="es.ubu.lsi.client.ChatClientImpl" -Dexec.args="localhost admin"`
 
 ## COMANDOS
 
